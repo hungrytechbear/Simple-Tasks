@@ -1,7 +1,7 @@
 public class QuestionOne {
 
 
-    
+    //method for checking if array is ascending
     static int checkAscending(int[] array) {
     	int prev = array[0];
     	for (int k = 1; k < array.length; k++) {
@@ -22,6 +22,7 @@ public class QuestionOne {
         int[] B = new int[size];
         int count = 0;
         
+        //pointer removes 1 element from array and check if array is still ascending
         for(int i = 0; i < A.length; i++) {
         	int x = 0;
         	for (int j = 0; j < A.length; j++) {
